@@ -1,5 +1,8 @@
 const { NextResponse } = require("next/server");
 
+// https://www.youtube.com/watch?v=CkiuF2wsPRg
+// 16:59 / 1:40:01
+
 export function GET(request, {params}){
     console.log(params);
     return NextResponse.json({
