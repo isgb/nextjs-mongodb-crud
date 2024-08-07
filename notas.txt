@@ -9,3 +9,6 @@ npx create-next-app nextjs-mongodb-crud
 Creating a new Next.js app in C:\Users\isgb_\Documents\Nextjs Mongodb CRUD Tutorial\nex
 
 npm i mongoose
+
+// https://www.youtube.com/watch?v=CkiuF2wsPRg
+//23.57 / 1:40:01

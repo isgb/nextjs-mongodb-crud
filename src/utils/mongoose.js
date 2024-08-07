@@ -10,7 +10,7 @@ export async function connectDB(){
 
     const db = await connect('mongodb://localhost/nextmongocrud')
     console.log(db.connection.db.databaseName);
-    conn.isConnected = db.connection[0].readyState;
+    conn.isConnected = db.connections[0].readyState;
 }
 
 connection.on('connected', () => {
