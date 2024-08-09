@@ -1,11 +1,14 @@
+import Link from "next/link"
 
-const TaskCard = ({task}) => {
+const TaskCard = ({ task }) => {
   return (
-        <div className="bg-gray-800 text-white rounded-md 
+    <Link href={`/tasks/${task._id}`}>
+      <div className="bg-gray-800 text-white rounded-md 
         hover:cursor-pointer hover:bg-gray-700">
-            <h1>{task.title}</h1>
-            <p>{task.description}</p>
-          </div>
+        <h1>{task.title}</h1>
+        <p>{task.description}</p>
+      </div>
+    </Link>
   )
 }
 
