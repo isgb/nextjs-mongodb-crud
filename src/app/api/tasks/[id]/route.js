@@ -1,6 +1,8 @@
 const { NextResponse } = require("next/server");
-import { connectDB } from "@/utils/mongoose";
-import Task from "@/models/Task";
+// import { connectDB } from "@/utils/mongoose";
+// import Task from "@/models/Task";
+import { connectDB } from "../../../../utils/mongoose";
+import Task from "../../../../models/Task";
 
 export async function GET(request, {params}){
     try{
