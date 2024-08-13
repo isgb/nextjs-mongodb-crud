@@ -11,4 +11,4 @@ Creating a new Next.js app in C:\Users\isgb_\Documents\Nextjs Mongodb CRUD Tutor
 npm i mongoose
 
 // https://www.youtube.com/watch?v=CkiuF2wsPRg
-// 1:30:36 / 1:40:01
+// finalizado
